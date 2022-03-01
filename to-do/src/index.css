@@ -1,0 +1,200 @@
+body {
+  background-color: #6e73bd;
+}
+
+h5{
+  color: #4529a0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  
+  
+}
+
+.tasktext
+{
+  top:36vh;
+  left: 10.7vw;
+  border: 5px white;
+  background-color:white;
+  width:30vw;
+  height:6vh;
+  border-radius: 2vh;
+  position:relative;
+  text-indent: 4%;
+  padding-top: 20px;
+  
+  
+}
+
+.striketask
+{
+  top:36vh;
+  left: 10.7vw;
+  border: 5px white;
+  background-color:white;
+  width:30vw;
+  height:6vh;
+  border-radius: 2vh;
+  position:relative;
+  text-indent: 4%;
+  padding-top: 20px;
+  text-decoration: line-through;
+  
+  
+}
+
+.delbutton
+{
+  left: 32vw;
+  top:0.7vh;
+  height:2vh;
+  color: #d44e45;
+  background-color:white;
+  border: none;
+  height: 40px;
+  width: 40px;
+   border-radius: 50%;
+  border:none;
+  position:absolute;
+}
+
+.editbutton
+{
+  left: 36vw;
+  top:0.7vh;
+  height:2vh;
+  color: #000000;
+  background-color:white;
+  border: none;
+  height: 40px;
+  width: 40px;
+   border-radius: 50%;
+  border:none;
+  position:absolute;
+}
+
+.taskisdone
+{
+  left: -5vw;
+  top:0.9vh;
+  height:2vh;
+  color: #000000;
+  background-color:white;
+  border: none;
+  height: 40px;
+  width: 40px;
+   border-radius: 50%;
+  border:none;
+  position:absolute;
+}
+
+
+
+.square 
+{
+  height: 792.5px;
+  width: 800px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: #b1b3d6;
+}
+
+.textarea {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 400px;
+  height: 40px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+  background-color: #dfdfdf;
+  left:7vw;
+  top:25vh;
+  position:absolute;
+  resize: none;
+   
+}
+
+textarea:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  outline-width: 0;
+  
+}
+
+.addb
+{
+  left:45vw;
+  top:26.9vh;
+  position:relative;
+  border: none;
+  height: 40px;
+  width: 40px;
+   border-radius: 50%;
+   
+
+}
+
+
+.done
+{
+  left:48vw;
+  top:26.9vh;
+  position:relative;
+  border: none;
+  height: 40px;
+  width: 40px;
+   border-radius: 50%;
+   
+
+}
+
+
+
+.heading
+{
+  font-size: 7em;
+  left:830px;
+  top:100px;
+  color: white;
+  position: absolute;
+
+}
+
+.about
+{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  left:830px;
+  top:340px;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  width:30vw;
+}
+
+.date
+{
+  color: #969393;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 0.8em;
+  left:23vw;
+  top:2vh;
+  position:absolute;
+  width:6vw;
+  
+}
